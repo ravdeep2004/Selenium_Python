@@ -69,3 +69,55 @@ driver.quit()
 
 """
 
+"""
+# Identify element
+# action
+
+
+# <input id='sddsd' name='sadasd'> Name: </input>
+
+# <a href="link"> register </a>
+
+# register is a linktext
+
+
+# id
+# name
+# linktext
+# partiallinktext
+
+# classname
+# tagname
+
+
+# CSS Selectors
+# ----------------
+
+# 1) tag id
+# syntax:
+# tagname#valueOfId
+# example:
+# input#email
+
+
+# 2) tag class
+# syntax:
+# tagname.valueOfClass
+# example:
+# input.inputtext._55r1._6luy
+
+
+# 3) tag attribute
+# syntax:
+# tagname[attribute=value]
+# example:
+# input[data-testid=royal_email]
+
+
+# 4) tag class attribute
+# syntax:
+# tagname.valueOfClass[attribute=value]
+# example:
+# input.inputtext[data-testid=royal_pass]
+
+"""
