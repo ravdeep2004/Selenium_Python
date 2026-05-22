@@ -1,0 +1,57 @@
+"""
+------------
+
+1) Application commands
+2) Conditional commands
+3) Browser commands
+4) Navigational commands
+5) Wait commands
+
+
+Application commands
+--------------------
+
+get() - opening the application URL
+title - to capture the title of the current webpage
+current_url - to capture the current url of the web page
+page_source - to capture source code of the page
+
+
+Conditional commands
+--------------------
+
+is_displayed()
+is_enabled()
+is_selected()
+
+
+Browser commands
+----------------
+
+close() - close single browser window (where driver focused)
+quit() - close multiple browser windows (this will kill the process)
+
+
+Navigational commands
+---------------------
+
+back()
+forward()
+refresh()
+
+
+find_element() Vs find_elements()
+
+
+text Vs get_attribute('value')
+
+text ----> returns inner text of the element
+
+get_attribute() ----> returns values of any attribute of web element
+
+
+
+<input id='123' name="xyz"> Email: </input>
+                     ----> Email is inner text
+
+"""
